@@ -273,6 +273,17 @@ def _exa_rate_limited(result, text):
     return False
 
 
+EXA_MAX_WAIT = 300.0  # a Retry-After longer than this (free tier: ~20 h) cannot be waited out: fail fast
+
+
+def _exa_rate_limit_error(message, retry_after=None):
+    """Exa signals its rate limit in several ways (HTTP 200 + _meta flag, HTTP 429, JSON-RPC error). A short wait is
+    retried; a wait longer than EXA_MAX_WAIT is reported at once so the agent switches source instead of stalling."""
+    if retry_after is not None and retry_after > EXA_MAX_WAIT:
+        return RuntimeError(f"{message}; retry after {retry_after:.0f}s, set EXA_API_KEY to avoid the free-tier limit")
+    return RetryableError(message, retry_after=retry_after)
+
+
 def _exa_call(tool_name: str, arguments: dict) -> str:
     key = os.getenv("EXA_API_KEY", "").strip()
     params = {"exaApiKey": key} if key else None
@@ -292,6 +303,8 @@ def _exa_call(tool_name: str, arguments: dict) -> str:
 
     def fn():
         resp = httpx.post(EXA_URL, params=params, json=body, headers=headers, timeout=60)
+        if resp.status_code == 429:
+            raise _exa_rate_limit_error("Exa rate limited (HTTP 429)", _retry_after(resp))
         _check_status(resp, "Exa")
         data = None
         for line in resp.text.splitlines():
@@ -300,6 +313,8 @@ def _exa_call(tool_name: str, arguments: dict) -> str:
         if data is None:
             data = resp.json()
         if "error" in data:
+            if "rate limit" in str(data["error"]).lower():
+                raise _exa_rate_limit_error("Exa rate limited (JSON-RPC error)", _retry_after(resp))
             raise RuntimeError(f"Exa JSON-RPC error: {data['error']}")
         result = data.get("result") or {}
         text = "\n".join(c.get("text", "") for c in result.get("content", []) if c.get("type") == "text")

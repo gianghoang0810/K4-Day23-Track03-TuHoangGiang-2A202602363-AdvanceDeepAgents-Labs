@@ -229,6 +229,38 @@ def test_exa_rate_limit_and_retry(monkeypatch):
     assert len(sleeps) >= 1
 
 
+def test_exa_rate_limit_as_jsonrpc_error_is_retried(monkeypatch):
+    sleeps = []
+    monkeypatch.setattr(tools.time, "sleep", lambda s: sleeps.append(s))
+    calls = [0]
+    limited = {"jsonrpc": "2.0", "error": {"code": -32000, "message": "You've hit Exa's free MCP rate limit."}}
+
+    def fake_post(url, **kwargs):
+        calls[0] += 1
+        if calls[0] == 1:
+            return httpx.Response(200, text="data: " + json.dumps(limited) + "\n\n", request=httpx.Request("POST", url))
+        return httpx.Response(200, json={"result": {"content": [{"type": "text", "text": "Ok text"}]}}, request=httpx.Request("POST", url))
+
+    monkeypatch.setattr(tools.httpx, "post", fake_post)
+    assert web_search.invoke({"query": "world models"}) == "Ok text"
+    assert calls[0] == 2 and len(sleeps) == 1
+
+
+def test_exa_long_retry_after_fails_fast(monkeypatch):
+    sleeps = []
+    monkeypatch.setattr(tools.time, "sleep", lambda s: sleeps.append(s))
+    calls = [0]
+
+    def fake_post(url, **kwargs):
+        calls[0] += 1
+        return httpx.Response(429, headers={"Retry-After": "72534"}, request=httpx.Request("POST", url))
+
+    monkeypatch.setattr(tools.httpx, "post", fake_post)
+    res = web_search.invoke({"query": "world models"})
+    assert res.startswith("ERROR") and "72534" in res
+    assert calls[0] == 1 and sleeps == []
+
+
 def test_exa_error_and_key_redaction(monkeypatch):
     monkeypatch.setenv("EXA_API_KEY", "FAKEKEY123")
 
