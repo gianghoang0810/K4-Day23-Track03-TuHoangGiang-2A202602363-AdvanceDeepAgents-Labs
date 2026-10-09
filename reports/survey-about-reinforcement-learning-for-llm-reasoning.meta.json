@@ -1,0 +1,25 @@
+{
+  "topic": "survey about reinforcement learning for LLM reasoning",
+  "model": "anthropic/claude-haiku-5.5",
+  "elapsed_s": 771.3,
+  "subagent_calls": 5,
+  "tool_calls": {
+    "write_todos": 1,
+    "task": 5,
+    "read_file": 9,
+    "write_file": 3,
+    "edit_file": 14,
+    "execute": 3,
+    "grep": 3
+  },
+  "tokens": {
+    "input": 942776,
+    "output": 34579
+  },
+  "n_sources": 42,
+  "source_families": [
+    "hf-daily",
+    "hf-search",
+    "web"
+  ]
+}

@@ -1,0 +1,338 @@
+[
+  {
+    "n": 1,
+    "id": "2210.03629",
+    "url": "https://huggingface.co/papers/2210.03629",
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "date": "2022-10-06",
+    "source": "hf-search"
+  },
+  {
+    "n": 2,
+    "id": "2302.04761",
+    "url": "https://arxiv.org/abs/2302.04761",
+    "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "date": "2023-02-09",
+    "source": "web"
+  },
+  {
+    "n": 3,
+    "id": "2305.15334",
+    "url": "https://huggingface.co/papers/2305.15334",
+    "title": "Gorilla: Large Language Model Connected with Massive APIs",
+    "date": "2023-05-24",
+    "source": "hf-search"
+  },
+  {
+    "n": 4,
+    "id": "2307.16789",
+    "url": "https://huggingface.co/papers/2307.16789",
+    "title": "ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs",
+    "date": "2023-07-31",
+    "source": "hf-search"
+  },
+  {
+    "n": 5,
+    "id": "2409.00920",
+    "url": "https://huggingface.co/papers/2409.00920",
+    "title": "ToolACE: Winning the Points of LLM Function Calling",
+    "date": "2024-09-02",
+    "source": "hf-search"
+  },
+  {
+    "n": 6,
+    "id": "2609.09072",
+    "url": "https://huggingface.co/papers/2609.09072",
+    "title": "ToolLoop: Closed-Loop Tool-Use Data Synthesis via Decomposed Generation and Dynamic Self-Feedback",
+    "date": "2026-09-08",
+    "source": "hf-search"
+  },
+  {
+    "n": 7,
+    "id": "2509.01055",
+    "url": "https://huggingface.co/papers/2509.01055",
+    "title": "VerlTool: Towards Holistic Agentic Reinforcement Learning with Tool Use",
+    "date": "2025-09-01",
+    "source": "hf-search"
+  },
+  {
+    "n": 8,
+    "id": "2602.12268",
+    "url": "https://huggingface.co/papers/2602.12268",
+    "title": "CM2: Reinforcement Learning with Checklist Rewards for Multi-Turn and Multi-Step Agentic Tool Use",
+    "date": "2026-02-12",
+    "source": "hf-search"
+  },
+  {
+    "n": 9,
+    "id": "2505.11821",
+    "url": "https://huggingface.co/papers/2505.11821",
+    "title": "Reinforcing Multi-Turn Reasoning in LLM Agents via Turn-Level Credit Assignment",
+    "date": "2025-05-17",
+    "source": "hf-search"
+  },
+  {
+    "n": 10,
+    "id": "2512.17008",
+    "url": "https://huggingface.co/papers/2512.17008",
+    "title": "Turn-PPO: Turn-Level Advantage Estimation with PPO for Improved Multi-Turn RL in Agentic LLMs",
+    "date": "2025-12-18",
+    "source": "hf-search"
+  },
+  {
+    "n": 11,
+    "id": "2602.03025",
+    "url": "https://huggingface.co/papers/2602.03025",
+    "title": "RC-GRPO: Reward-Conditioned Group Relative Policy Optimization for Multi-Turn Tool Calling Agents",
+    "date": "2026-02-03",
+    "source": "hf-search"
+  },
+  {
+    "n": 12,
+    "id": "tau-bench-iclr2025",
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/1b126cc38b8638e07bef37e7b2bb72bf-Paper-Conference.pdf",
+    "title": "τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+    "date": "2025",
+    "source": "web"
+  },
+  {
+    "n": 13,
+    "id": "2404.07972",
+    "url": "https://arxiv.org/abs/2404.07972",
+    "title": "OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments",
+    "date": "2024-04-11",
+    "source": "arxiv"
+  },
+  {
+    "n": 14,
+    "id": "mcp-landscape-acm-3796519",
+    "url": "https://dl.acm.org/doi/pdf/10.1145/3796519",
+    "title": "MCP Landscape, Security Threats, and Future Research Directions",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 15,
+    "id": "mcp-security-landscape-springer-978-3-032-31998-2_13",
+    "url": "https://link.springer.com/chapter/10.1007/978-3-032-31998-2_13",
+    "title": "The Model Context Protocol Security Landscape: A Systematic Analysis of Inherent Vulnerabilities and Defensive Inadequacies",
+    "date": "2026-10-06",
+    "source": "web"
+  },
+  {
+    "n": 16,
+    "id": "2508.12538",
+    "url": "https://huggingface.co/papers/2508.12538",
+    "title": "Systematic Analysis of MCP Security",
+    "date": "2025-08-18",
+    "source": "hf-search"
+  },
+  {
+    "n": 17,
+    "id": "2602.20156",
+    "url": "https://huggingface.co/papers/2602.20156",
+    "title": "Skill-Inject: Measuring Agent Vulnerability to Skill File Attacks",
+    "date": "2026-02-23",
+    "source": "hf-search"
+  },
+  {
+    "n": 18,
+    "id": "2504.19793",
+    "url": "https://huggingface.co/papers/2504.19793",
+    "title": "Prompt Injection Attack to Tool Selection in LLM Agents (ToolHijacker)",
+    "date": "2025-08-24",
+    "source": "hf-search"
+  },
+  {
+    "n": 19,
+    "id": "mcp-2026-roadmap-blog",
+    "url": "https://blog.modelcontextprotocol.io/posts/2026-mcp-roadmap/",
+    "title": "The 2026 MCP Roadmap",
+    "date": "2026-03-09",
+    "source": "web"
+  },
+  {
+    "n": 20,
+    "id": "2504.11703",
+    "url": "https://huggingface.co/papers/2504.11703",
+    "title": "Progent: Programmable Privilege Control for LLM Agents",
+    "date": "2025-04-16",
+    "source": "hf-search"
+  },
+  {
+    "n": 21,
+    "id": "2610.12360",
+    "url": "https://huggingface.co/papers/2610.12360",
+    "title": "Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict",
+    "date": "2026-10-08",
+    "source": "hf-daily"
+  },
+  {
+    "n": 22,
+    "id": "2405.17935",
+    "url": "https://huggingface.co/papers/2405.17935",
+    "title": "Tool Learning with Large Language Models: A Survey",
+    "date": "2024-05-28",
+    "source": "hf-search"
+  },
+  {
+    "n": 23,
+    "id": "2602.20867",
+    "url": "https://huggingface.co/papers/2602.20867",
+    "title": "SoK: Agentic Skills -- Beyond Tool Use in LLM Agents",
+    "date": "2026-02-24",
+    "source": "hf-search"
+  },
+  {
+    "n": 24,
+    "id": "a2a-protocol-org-latest",
+    "url": "https://a2a-protocol.org/latest/",
+    "title": "A2A Protocol (Agent2Agent)",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 25,
+    "id": "gorilla-neurips2024",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/e4c61f578ff07830f5c37378dd3ecb0d-Paper-Conference.pdf",
+    "title": "Gorilla (NeurIPS 2024 proceedings)",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 26,
+    "id": "2023.emnlp-main.187",
+    "url": "https://aclanthology.org/2023.emnlp-main.187/",
+    "title": "API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs",
+    "date": "2023",
+    "source": "web"
+  },
+  {
+    "n": 27,
+    "id": "2405.16089",
+    "url": "https://huggingface.co/papers/2405.16089",
+    "title": "Towards Completeness-Oriented Tool Retrieval for Large Language Models (COLT)",
+    "date": "2024-05-25",
+    "source": "hf-search"
+  },
+  {
+    "n": 28,
+    "id": "2510.22670",
+    "url": "https://huggingface.co/papers/2510.22670",
+    "title": "Tools are under-documented: Simple Document Expansion Boosts Tool Retrieval",
+    "date": "2025-10-26",
+    "source": "hf-search"
+  },
+  {
+    "n": 29,
+    "id": "2505.06416",
+    "url": "https://huggingface.co/papers/2505.06416",
+    "title": "ScaleMCP: Dynamic and Auto-Synchronizing Model Context Protocol Tools for LLM Agents",
+    "date": "2025-05-09",
+    "source": "hf-search"
+  },
+  {
+    "n": 30,
+    "id": "2602.00933",
+    "url": "https://huggingface.co/papers/2602.00933",
+    "title": "MCP-Atlas: A Large-Scale Benchmark for Tool-Use Competency with Real MCP Servers",
+    "date": "2026-01-31",
+    "source": "hf-search"
+  },
+  {
+    "n": 31,
+    "id": "bfcl-v4-leaderboard",
+    "url": "https://gorilla.cs.berkeley.edu/leaderboard",
+    "title": "Berkeley Function Calling Leaderboard (BFCL V4: From Tool Use to Agentic Evaluation)",
+    "date": "2026-04-12",
+    "source": "web"
+  },
+  {
+    "n": 32,
+    "id": "gaia-iclr2024",
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2024/hash/25ae35b5b1738d80f1f03a8713e405ec-Abstract-Conference.html",
+    "title": "GAIA: a benchmark for General AI Assistants",
+    "date": "2024",
+    "source": "web"
+  },
+  {
+    "n": 33,
+    "id": "2308.03688",
+    "url": "https://arxiv.org/abs/2308.03688",
+    "title": "AgentBench: Evaluating LLMs as Agents",
+    "date": "2023-08",
+    "source": "web"
+  },
+  {
+    "n": 34,
+    "id": "2606.06560",
+    "url": "https://huggingface.co/papers/2606.06560",
+    "title": "MacArena (macOS computer-use benchmark)",
+    "date": "2026-06-04",
+    "source": "hf-search"
+  },
+  {
+    "n": 35,
+    "id": "2508.14925",
+    "url": "https://huggingface.co/papers/2508.14925",
+    "title": "MCPTox: A Benchmark for Tool Poisoning Attack on Real-World MCP Servers",
+    "date": "2025-08-19",
+    "source": "hf-search"
+  },
+  {
+    "n": 36,
+    "id": "2302.12173",
+    "url": "https://huggingface.co/papers/2302.12173",
+    "title": "Not what you've signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection",
+    "date": "2023-02-23",
+    "source": "hf-search"
+  },
+  {
+    "n": 37,
+    "id": "2503.13657",
+    "url": "https://huggingface.co/papers/2503.13657",
+    "title": "Why Do Multi-Agent LLM Systems Fail?",
+    "date": "2025-03-17",
+    "source": "hf-search"
+  },
+  {
+    "n": 38,
+    "id": "2601.16280",
+    "url": "https://huggingface.co/papers/2601.16280",
+    "title": "When Agents Fail to Act: A Diagnostic Framework for Tool Invocation Reliability in Multi-Agent LLM Systems",
+    "date": "2026-01-22",
+    "source": "hf-search"
+  },
+  {
+    "n": 39,
+    "id": "2510.14967",
+    "url": "https://huggingface.co/papers/2510.14967",
+    "title": "Information Gain-based Policy Optimization (IGPO) for Multi-Turn LLM Agents",
+    "date": "2025-10-16",
+    "source": "hf-search"
+  },
+  {
+    "n": 40,
+    "id": "2609.15818",
+    "url": "https://huggingface.co/papers/2609.15818",
+    "title": "Atria Dawn: The Dawn of Agentic Superintelligence",
+    "date": "2026-09-14",
+    "source": "hf-daily"
+  },
+  {
+    "n": 41,
+    "id": "2609.13356",
+    "url": "https://huggingface.co/papers/2609.13356",
+    "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
+    "date": "2026-09-11",
+    "source": "hf-daily"
+  },
+  {
+    "n": 42,
+    "id": "arxiv-2603.07670",
+    "url": "https://arxiv.org/pdf/2603.07670",
+    "title": "Memory for LLM agents: survey (write-manage-read loop)",
+    "date": "n.d.",
+    "source": "web"
+  }
+]

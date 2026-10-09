@@ -107,3 +107,46 @@ Kết quả nằm ở `reports/survey-about-world-model.md` cùng `.sources.json
 - Mỗi lần chạy tốn token LLM và thời gian sandbox. `tokens` trong `meta.json` chỉ đếm tin nhắn của lead, chưa gồm subagent, nên chi phí thật cao hơn. `open_sandbox()` luôn dừng và xóa sandbox khi kết thúc, kể cả khi lỗi. Đừng bỏ qua nó.
 - **Không đưa bí mật vào sandbox.** Sandbox không ngăn được prompt injection hay việc đẩy dữ liệu ra mạng; một trang web độc hại có thể khiến agent chạy lệnh bên trong sandbox. Vì vậy mọi công cụ gọi mạng và mọi khóa ở lại phía host.
 - Nội dung lấy từ web là **dữ liệu không đáng tin**: agent không được làm theo chỉ dẫn nằm trong đó.
+
+## 8. Chạy lại bài nộp và đọc kết quả
+
+### Cài đặt và chạy
+
+Linux/macOS:
+
+```bash
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+cp .env.example .env          # điền LAB_MODEL + khóa LLM, DAYTONA_API_KEY, EXA_API_KEY
+python research.py "survey about world model"
+```
+
+Windows (PowerShell):
+
+```powershell
+py -3.11 -m venv .venv; .venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+Copy-Item .env.example .env   # rồi điền khóa
+$env:PYTHONUTF8 = "1"
+python research.py "survey about world model"
+```
+
+Kiểm tra không tốn token: `python -m pytest -q` (test offline cho `tools.py`, `agents.py`, `research.py`, `check_citations.py`) và `python self_check.py`.
+
+### Đọc thư mục `reports/`
+
+Mỗi chủ đề trong `topics.md` có ba tệp cùng tên `<slug>` (ví dụ `survey-about-world-model`):
+
+| Tệp | Nội dung |
+|---|---|
+| `<slug>.md` | Báo cáo khảo sát (tiếng Anh): TL;DR, Background, các phần theo chủ đề, Trends and open problems, References. Mỗi `[n]` trong thân trỏ tới dòng `[n]` của References. |
+| `<slug>.sources.json` | Danh sách nguồn `{n, id, url, title, date, source}`; `source` là công cụ đã tìm ra nguồn: `arxiv`, `hf-daily`, `hf-search` hoặc `web`. |
+| `<slug>.meta.json` | Thông số lần chạy: `model`, `elapsed_s`, `subagent_calls` (số lần lead giao việc qua `task`), `tool_calls`, `tokens` (chỉ tính tin nhắn của lead, chưa gồm subagent), `n_sources`, `source_families`. |
+
+Kiểm tra trích dẫn của một báo cáo:
+
+```bash
+python check_citations.py reports/<slug>.md reports/<slug>.sources.json
+```
+
+Lệnh in `OK: N sources, all citations resolve` khi mọi trích dẫn khớp với `sources.json`. Tệp `.md` và `.sources.json` là bản tải nguyên từ sandbox, không sửa tay.

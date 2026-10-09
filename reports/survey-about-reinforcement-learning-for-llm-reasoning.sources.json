@@ -1,0 +1,338 @@
+[
+  {
+    "n": 1,
+    "id": "2203.02155",
+    "url": "https://huggingface.co/papers/2203.02155",
+    "title": "Training language models to follow instructions with human feedback",
+    "date": "2022-03-04",
+    "source": "hf-search"
+  },
+  {
+    "n": 2,
+    "id": "2305.18290",
+    "url": "https://huggingface.co/papers/2305.18290",
+    "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+    "date": "2023-05-29",
+    "source": "hf-search"
+  },
+  {
+    "n": 3,
+    "id": "2402.03300",
+    "url": "https://huggingface.co/papers/2402.03300",
+    "title": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models",
+    "date": "2024-02-05",
+    "source": "hf-search"
+  },
+  {
+    "n": 4,
+    "id": "2501.12948",
+    "url": "https://huggingface.co/papers/2501.12948",
+    "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+    "date": "2025-01-22",
+    "source": "hf-search"
+  },
+  {
+    "n": 5,
+    "id": "2503.14476",
+    "url": "https://huggingface.co/papers/2503.14476",
+    "title": "DAPO: An Open-Source LLM Reinforcement Learning System at Scale",
+    "date": "2025-03-18",
+    "source": "hf-search"
+  },
+  {
+    "n": 6,
+    "id": "2503.20783",
+    "url": "https://huggingface.co/papers/2503.20783",
+    "title": "Understanding R1-Zero-Like Training: A Critical Perspective",
+    "date": "2025-03-26",
+    "source": "hf-search"
+  },
+  {
+    "n": 7,
+    "id": "2406.06592",
+    "url": "https://huggingface.co/papers/2406.06592",
+    "title": "Improve Mathematical Reasoning in Language Models by Automated Process Supervision",
+    "date": "2024-06-05",
+    "source": "hf-search"
+  },
+  {
+    "n": 8,
+    "id": "2506.11902",
+    "url": "https://huggingface.co/papers/2506.11902",
+    "title": "TreeRL: LLM Reinforcement Learning with On-Policy Tree Search",
+    "date": "2025-06-13",
+    "source": "hf-search"
+  },
+  {
+    "n": 9,
+    "id": "2512.16912",
+    "url": "https://huggingface.co/papers/2512.16912",
+    "title": "Exploration v.s. Exploitation: Rethinking RLVR through Clipping, Entropy, and Spurious Reward",
+    "date": "2025-12-18",
+    "source": "hf-search"
+  },
+  {
+    "n": 10,
+    "id": "2505.22617",
+    "url": "https://huggingface.co/papers/2505.22617",
+    "title": "The Entropy Mechanism of Reinforcement Learning for Reasoning Language Models",
+    "date": "2025-05-28",
+    "source": "hf-search"
+  },
+  {
+    "n": 11,
+    "id": "2026.acl-long.889",
+    "url": "https://aclanthology.org/2026.acl-long.889.pdf",
+    "title": "Towards a Mechanistic Understanding of Large Reasoning Models: A Survey of Training, Inference, and Failures",
+    "date": "2026",
+    "source": "web"
+  },
+  {
+    "n": 12,
+    "id": "2601.11061",
+    "url": "https://huggingface.co/papers/2601.11061",
+    "title": "Spurious Rewards Paradox: Mechanistically Understanding How RLVR Activates Memorization Shortcuts in LLMs",
+    "date": "2026-01-16",
+    "source": "hf-search"
+  },
+  {
+    "n": 13,
+    "id": "2506.10947",
+    "url": "https://huggingface.co/papers/2506.10947",
+    "title": "Spurious Rewards: Rethinking Training Signals in RLVR",
+    "date": "2025-06-12",
+    "source": "hf-search"
+  },
+  {
+    "n": 14,
+    "id": "1707.06347",
+    "url": "https://arxiv.org/abs/1707.06347",
+    "title": "Proximal Policy Optimization Algorithms",
+    "date": "2017-07-20",
+    "source": "web"
+  },
+  {
+    "n": 15,
+    "id": "2508.08221",
+    "url": "https://huggingface.co/papers/2508.08221",
+    "title": "Part I: Tricks or Traps? A Deep Dive into RL for LLM Reasoning",
+    "date": "2025-08-11",
+    "source": "hf-search"
+  },
+  {
+    "n": 16,
+    "id": "2505.21067",
+    "url": "https://huggingface.co/papers/2505.21067",
+    "title": "Why Distillation can Outperform Zero-RL: The Role of Flexible Reasoning",
+    "date": "2025-05-27",
+    "source": "hf-search"
+  },
+  {
+    "n": 17,
+    "id": "2510.00977",
+    "url": "https://huggingface.co/papers/2510.00977",
+    "title": "It Takes Two: Your GRPO Is Secretly DPO",
+    "date": "2025-10-01",
+    "source": "hf-search"
+  },
+  {
+    "n": 18,
+    "id": "2603.01162",
+    "url": "https://huggingface.co/papers/2603.01162",
+    "title": "Demystifying Group Relative Policy Optimization: Its Policy Gradient is a U-Statistic",
+    "date": "2026-03-01",
+    "source": "hf-search"
+  },
+  {
+    "n": 19,
+    "id": "2505.22257",
+    "url": "https://huggingface.co/papers/2505.22257",
+    "title": "Revisiting Group Relative Policy Optimization: Insights into On-Policy and Off-Policy Training",
+    "date": "2025-05-28",
+    "source": "hf-search"
+  },
+  {
+    "n": 20,
+    "id": "2505.16400",
+    "url": "https://huggingface.co/papers/2505.16400",
+    "title": "AceReason-Nemotron: Advancing Math and Code Reasoning through Reinforcement Learning",
+    "date": "2025-05-22",
+    "source": "hf-search"
+  },
+  {
+    "n": 21,
+    "id": "2509.21240",
+    "url": "https://huggingface.co/papers/2509.21240",
+    "title": "Tree-GRPO: Tree Search for LLM Agent Reinforcement Learning",
+    "date": "2025-09-25",
+    "source": "hf-search"
+  },
+  {
+    "n": 22,
+    "id": "2502.01456",
+    "url": "https://huggingface.co/papers/2502.01456",
+    "title": "PRIME: Process Reinforcement through Implicit Rewards",
+    "date": "2025-02-03",
+    "source": "hf-search"
+  },
+  {
+    "n": 23,
+    "id": "2412.01981",
+    "url": "https://huggingface.co/papers/2412.01981",
+    "title": "Free Process Rewards without Process Labels",
+    "date": "2024-12-02",
+    "source": "hf-search"
+  },
+  {
+    "n": 24,
+    "id": "2509.18314",
+    "url": "https://huggingface.co/papers/2509.18314",
+    "title": "TEMPO: Exploiting Tree Structure for Credit Assignment in RL Training of LLMs",
+    "date": "2025-09-22",
+    "source": "hf-search"
+  },
+  {
+    "n": 25,
+    "id": "2508.02298",
+    "url": "https://huggingface.co/papers/2508.02298",
+    "title": "CAPO: Towards Enhancing LLM Reasoning through Verifiable Generative Credit Assignment",
+    "date": "2025-08-04",
+    "source": "hf-search"
+  },
+  {
+    "n": 26,
+    "id": "2505.04842",
+    "url": "https://huggingface.co/papers/2505.04842",
+    "title": "Putting the Value Back in RL: Better Test-Time Scaling by Unifying LLM Reasoners With Verifiers",
+    "date": "2025-05-07",
+    "source": "hf-search"
+  },
+  {
+    "n": 27,
+    "id": "aaai-generalization-prm-tts",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/download/40289/44250",
+    "title": "Generalization of Process Reward Models in Test-Time Scaling",
+    "date": "n.d.",
+    "source": "web"
+  },
+  {
+    "n": 28,
+    "id": "2602.17684",
+    "url": "https://huggingface.co/papers/2602.17684",
+    "title": "CodeScaler: Scaling Code LLM Training and Test-Time Inference via Execution-Free Reward Models",
+    "date": "2026-02-04",
+    "source": "hf-search"
+  },
+  {
+    "n": 29,
+    "id": "2505.12504",
+    "url": "https://huggingface.co/papers/2505.12504",
+    "title": "CPGD: Toward Stable Rule-based Reinforcement Learning for Language Models",
+    "date": "2025-05-18",
+    "source": "hf-search"
+  },
+  {
+    "n": 30,
+    "id": "2609.35433",
+    "url": "https://huggingface.co/papers/2609.35433",
+    "title": "ReSPO: Reshaped Sequence Policy Optimization for Gradient Starvation in Off-Policy Learning",
+    "date": "2026-09-28",
+    "source": "hf-daily"
+  },
+  {
+    "n": 31,
+    "id": "2602.01705",
+    "url": "https://huggingface.co/papers/2602.01705",
+    "title": "Beyond Mode Elicitation: Diversity-Preserving RL via Latent Diffusion Reasoner",
+    "date": "2026-02-02",
+    "source": "hf-search"
+  },
+  {
+    "n": 32,
+    "id": "2605.14220",
+    "url": "https://huggingface.co/papers/2605.14220",
+    "title": "Diagnosing Training Inference Mismatch in LLM Reinforcement Learning",
+    "date": "2026-05-14",
+    "source": "hf-search"
+  },
+  {
+    "n": 33,
+    "id": "2606.29526",
+    "url": "https://huggingface.co/papers/2606.29526",
+    "title": "The Mirage of Optimizing Training Policies",
+    "date": "2026-06-28",
+    "source": "hf-search"
+  },
+  {
+    "n": 34,
+    "id": "2604.18574",
+    "url": "https://huggingface.co/papers/2604.18574",
+    "title": "When Can LLMs Learn to Reason with Weak Supervision?",
+    "date": "2026-04-20",
+    "source": "hf-search"
+  },
+  {
+    "n": 35,
+    "id": "2604.17312",
+    "url": "https://arxiv.org/html/2604.17312v1",
+    "title": "A Survey of Reinforcement Learning for Large Language Models under Data Scarcity",
+    "date": "2026-04",
+    "source": "web"
+  },
+  {
+    "n": 36,
+    "id": "2604.06268",
+    "url": "https://huggingface.co/papers/2604.06268",
+    "title": "RAGEN-2: Reasoning Collapse in Agentic RL",
+    "date": "2026-04-07",
+    "source": "hf-search"
+  },
+  {
+    "n": 37,
+    "id": "2510.01132",
+    "url": "https://huggingface.co/papers/2510.01132",
+    "title": "A Practitioner's Guide to Multi-turn Agentic Reinforcement Learning",
+    "date": "2025-10-01",
+    "source": "hf-search"
+  },
+  {
+    "n": 38,
+    "id": "2605.02178",
+    "url": "https://huggingface.co/papers/2605.02178",
+    "title": "T^2PO: Uncertainty-Guided Exploration Control for Stable Multi-Turn Agentic RL",
+    "date": "2026-05-04",
+    "source": "hf-search"
+  },
+  {
+    "n": 39,
+    "id": "2609.39533",
+    "url": "https://huggingface.co/papers/2609.39533",
+    "title": "CATCH: reward hacking testbed for coding RL",
+    "date": "2026-10-01",
+    "source": "hf-search"
+  },
+  {
+    "n": 40,
+    "id": "2508.05613",
+    "url": "https://huggingface.co/papers/2508.05613",
+    "title": "Cooper: Co-Optimizing Policy and Reward Models in RL for LLMs",
+    "date": "2025-08-07",
+    "source": "hf-search"
+  },
+  {
+    "n": 41,
+    "id": "2504.15275",
+    "url": "https://huggingface.co/papers/2504.15275",
+    "title": "Stop Summation: Min-Form Credit Assignment Is All Process Reward Model Needs for Reasoning",
+    "date": "2025-04-21",
+    "source": "hf-search"
+  },
+  {
+    "n": 42,
+    "id": "2505.15612",
+    "url": "https://huggingface.co/papers/2505.15612",
+    "title": "Adaptive Length-based Reward Shaping (LASER-D)",
+    "date": "2025-05-21",
+    "source": "hf-search"
+  }
+]

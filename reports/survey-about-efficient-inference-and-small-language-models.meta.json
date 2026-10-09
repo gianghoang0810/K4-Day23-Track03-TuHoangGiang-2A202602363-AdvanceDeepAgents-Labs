@@ -1,0 +1,25 @@
+{
+  "topic": "survey about efficient inference and small language models",
+  "model": "anthropic/claude-haiku-5.5",
+  "elapsed_s": 1101.2,
+  "subagent_calls": 7,
+  "tool_calls": {
+    "write_todos": 1,
+    "task": 7,
+    "read_file": 8,
+    "write_file": 2,
+    "edit_file": 7,
+    "execute": 5,
+    "grep": 3
+  },
+  "tokens": {
+    "input": 570631,
+    "output": 26872
+  },
+  "n_sources": 42,
+  "source_families": [
+    "hf-daily",
+    "hf-search",
+    "web"
+  ]
+}

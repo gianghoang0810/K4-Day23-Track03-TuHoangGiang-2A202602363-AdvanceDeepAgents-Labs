@@ -1,0 +1,25 @@
+{
+  "topic": "survey about video and multimodal generation",
+  "model": "anthropic/claude-haiku-5.5",
+  "elapsed_s": 1053.2,
+  "subagent_calls": 5,
+  "tool_calls": {
+    "write_todos": 3,
+    "task": 5,
+    "read_file": 9,
+    "write_file": 2,
+    "edit_file": 16,
+    "execute": 3,
+    "grep": 3
+  },
+  "tokens": {
+    "input": 736043,
+    "output": 28174
+  },
+  "n_sources": 42,
+  "source_families": [
+    "hf-daily",
+    "hf-search",
+    "web"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "topic": "survey about world model",
+  "model": "anthropic/claude-haiku-5.5",
+  "elapsed_s": 810.6,
+  "subagent_calls": 5,
+  "tool_calls": {
+    "write_todos": 1,
+    "task": 5,
+    "read_file": 6,
+    "write_file": 2,
+    "execute": 5,
+    "edit_file": 18,
+    "grep": 2
+  },
+  "tokens": {
+    "input": 797295,
+    "output": 29898
+  },
+  "n_sources": 44,
+  "source_families": [
+    "hf-daily",
+    "hf-search",
+    "web"
+  ]
+}
